@@ -20,19 +20,12 @@ Kullanıcıdan isim alır ve "Merhaba, <isim>!" şeklinde bir karşılama mesaj�
 - Alternatif olarak doğrudan Python ortamında çalıştırabilirsiniz (aşağıda anlatıldı).
 
 ---
-
-##  Docker ile Çalıştırma
-
-### 1. Proje klasörüne gidin:
-
-```bash
-cd proje-klasoru
-
-### 2. Docker imajını oluşturun
-docker build -t merhaba-gradio .
-
-### 3. Uygulamayı başlatın
-docker run -p 7860:7860 merhaba-gradio
-
-### 4. Tarayıcıda açın
+## Docker ile Çalıştırma  
+### 1. Proje klasörüne gidin:  
+cd proje-klasoru  
+### 2. Docker imajını oluşturun  
+docker build -t merhaba-gradio .  
+### 3. Uygulamayı başlatın  
+docker run -p 7860:7860 merhaba-gradio  
+### 4. Tarayıcıda açın  
 http://localhost:7860
